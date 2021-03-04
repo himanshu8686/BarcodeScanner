@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BarcodeScanner</string>
+    <string name="ok">OK</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_camera_permission">Scanning required the camera permission.</string>
+    <string name="invalid_boarding_pass">Invalid boarding pass</string>
+    <string name="something_went_Wrong">Something went wrong, please try again later</string>
+
+</resources>

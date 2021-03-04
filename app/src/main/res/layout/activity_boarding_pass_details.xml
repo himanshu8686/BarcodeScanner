@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoardingPassDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="26dp"
+                android:text="Boarding pass details"
+                android:textColor="#171716"
+                android:paddingVertical="10dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3B0B0"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Full name"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_full_name"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="From City"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_from_city"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="To City"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_to_city"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Carrier Code"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_carrier_code"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Compartment Code"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_compartment_code"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Date of flight"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_dof"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Flight Number"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_flight_no"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Seat Number"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_seat_no"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="16dp"
+                    android:text="Seating Class"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_seat_class"
+                    android:textSize="16dp"
+                    android:textColor="#171716"
+                    android:paddingVertical="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
